@@ -13,20 +13,21 @@
   border-radius: 0;
   display: flex;
   height: 100%;
-  width:100%;
+  width: 100%;
   position: absolute;
-  opacity: .1;
-  background-attachment: scroll;
+  opacity: .18;
+  /* background-attachment: scroll; */
+  background-repeat: repeat;
   z-index: 1;
 }
 
 h1 {
   position: relative;
-  margin-top: 50px;
+  margin-top: 25px;
   margin-left: 25px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 36px;
-  color: #d61e1e9d;
+  color: #d61e1ee8;
   /* color:#FFFEFE; */
   z-index: 3;
 }
@@ -36,23 +37,21 @@ h4 {
   margin-left: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12px;
-  color: #d61e1e9d;
-  /* color: #a614149d; */
+  color: #d61e1ee8;
   z-index: 3;
 }
 
-/* .triangle-right {
-    position: absolute;
-    top: -365px;
-    left: -250px ;
-    width: 114vw;
-    height: 100vh;
-    transform: rotate(-26deg);
-    background: rgba(230, 64, 64, 0.6);
-    overflow: hidden;
-    background-attachment: fixed;
-    z-index: 2;
-  } */
+.triangle-right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 100vh solid rgba(230, 64, 64, 0.6);
+  border-right: 100vw solid transparent;
+  width: 0;
+  height: 0;
+  z-index: -1;
+}
+
 
 .App-link {
   color: #61dafb;
@@ -62,7 +61,12 @@ h4 {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+nav {
+  z-index: 3
 }

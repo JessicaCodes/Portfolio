@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "portfoliotest30bb3c6e": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
