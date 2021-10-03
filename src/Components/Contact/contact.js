@@ -1,10 +1,12 @@
+import { Router } from 'react-router';
 import './contact.css';
 import React from 'react';
+import LinkedIn from '../LinkedIn/LinkedIn.js';
 
 class Contact extends React.Component {
     render() {
         return (
-            <div className='contact-container'>
+            <div className='contact-container component'>
                 <h1>
 
                     How to Reach Me
@@ -12,7 +14,7 @@ class Contact extends React.Component {
                 </h1>
                 <p>Phone: 516-522-4234</p>
                 <p>Email: thejnetwork.11@gmail.com</p>
-                <p>LinkedIn: <a href="https://www.linkedin.com/in/jessica-salazar-31366137/">Jessica's Profile</a></p>
+                <LinkedIn />
                 </div>
                 )
     }

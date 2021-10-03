@@ -9,6 +9,11 @@
   }
 }
 
+.component {
+min-height: 100vh;
+}
+
+
 .background-photo {
   border-radius: 0;
   display: flex;

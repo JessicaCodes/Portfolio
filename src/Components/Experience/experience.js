@@ -1,12 +1,18 @@
 import React from 'react'
-
+import './Experience.css'
 
 
 class Experience extends React.Component {
     render() {
         return (
-            <div id='grid-container'>
-                <ul>
+            <div className='grid-container component'>
+                {/* <div className='header'>Experience Grid</div> */}
+                <div className='first'>Started From the Bottom</div>
+                <div className='second'>Second</div>
+                <div className='third'>Third</div>
+                <div className='fourth'>Fourth</div>
+                <div className='fifth'>Now I'm Here</div>
+                {/* <ul>
                     <li className='1st'>Started From The Bottom</li>
                     <li className='2st'></li>
                     <li className='3st'></li>
@@ -19,7 +25,7 @@ class Experience extends React.Component {
                     <li className='10st'></li>
                     <li className='11st'></li>
                     <li className='12st'></li>
-                    <li className='13st'>The Princeton Review</li>
+                    <li className='13st'>Profit Center Software</li>
                     <li className='14st'></li>
                     <li className='15st'></li>
                     <li className='16st'></li>
@@ -38,26 +44,7 @@ class Experience extends React.Component {
                     <li className='29st'></li>
                     <li className='30st'></li>
                     <li className='31st'>DJ's Technicians</li>
-                </ul>
-                <h1>Welcome To Our Future Generation </h1>
-                <h1>Raffles</h1>
-                <div className="row">
-                    <div className='column box'>
-                        <h4>Current Raffles</h4>
-                        <button>test</button>
-                        <button>test</button>
-                        <button>test</button>
-                    </div>
-                    <div className="column box">
-                        <h4>Past Winners</h4>
-                        <button>test</button>
-                        <button>test</button>
-                        <button>test</button>
-                    </div>
-                </div>
-                
-                    <button id="register">REGISTER TO ENTER</button>
-                    <button id="login">LOGIN</button>
+                </ul> */}
             </div>
         )
     }

@@ -1,4 +1,43 @@
 .grid-container {
-        grid-template-columns: 20px [col-start] 20px [col-start] 20px [col-start] 20px [col-start] 20px [col-start];
-        grid-template-rows: repeat(5, 20px [row-start]);
+        display: grid;
+        grid-template-columns: 20vw [col-start] 20vw [col-start] 20vw [col-start] 20vw [col-start] 20vw [col-start];
+        /* grid-template-rows: repeat(5, 20px [row-start]); */
+        grid-template-rows: 15vh 15vh 15vh 15vh 15vh;
+        column-gap: 10px;
+        row-gap: 10px;
 }
+
+      
+
+.grid-container.div {
+        background-color: blueviolet;
+}
+
+/* .header {
+        grid-area: -1/1/1/-6;
+        background-color: crimson;
+} */
+.first {
+        grid-area: 5/1/6/2;
+        background-color: #e33535;
+        }  
+
+.second {
+        grid-area: 4/2/5/3;
+        background-color: #ea6262;
+        }
+
+        .third {
+                grid-area: 3/3/4/4;
+                background-color: #ea6262;
+                }
+
+                .fourth {
+                        grid-area: 2/4/3/5;
+                        background-color: #ed7878;
+                        }
+
+                        .fifth {
+                                grid-area: 1/5/2/6;
+                                background-color: #f08e8e;
+                                }
